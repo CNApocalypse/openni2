@@ -10,5 +10,5 @@ You should install python-openni2  `pip3 install openni2` and `export LD_LIBRARY
 
 ```python
 from CameraInterface import ONICamera:
-ONICamera().view()
+ONICamera().view_depth()
 ```
