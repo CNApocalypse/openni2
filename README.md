@@ -6,7 +6,7 @@ You should install python-openni2  `pip3 install openni2` and `export LD_LIBRARY
 
 ---
 
-`CameraInterface.py` is a simple demo cls:
+`CameraInterface.py` is a simple demo cls, code example:
 
 ```python
 from CameraInterface import ONICamera:
