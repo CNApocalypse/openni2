@@ -30,7 +30,7 @@ class ONICamera:
                     self.device = openni2.Device.open_file(bin(file_name))
             except Exception as e:
                 print(repr(e))
-                print("OPENNI2 Runtime Library not Found!!! Make sure your LD_LIBRARY_PATH or path of current containing runtime file.")
+                print("OPENNI2 Runtime Library not Found!!! Make sure your LD_LIBRARY_PATH or path-of-current containing runtime file.")
         except ImportError:
             print("Use `pip3 install openni` first")
 
