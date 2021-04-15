@@ -1,3 +1,5 @@
-# openni2
-openni2files
-这个工程旨在于方便部署openni组件
+# Openni 2.3 Arm64 Runtime Supported Files
+
+!!! This is not a C/C++ compiledable library !!!
+
+Using from Python, you should install python-openni2  `pip3 install openni2` and `export LD_LIBRARY_PATH="[THESE FILES PATH];$LD_LIBRARY_PATH"`
