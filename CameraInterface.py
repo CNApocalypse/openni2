@@ -3,18 +3,20 @@ class ONICamera:
     ---
     ONICamera
     ---
+    ## Init:
 
-    Init: 
     + depth_shape: frame shape supported by camera default. Defaults to (480, 640).
+
     + file_name: use file_name="xxxxx" to enable recorded file. Defaults to "".
 
-    Methods:
+    ## Methods:
+    
     + get_a_depth_image: read a depth frame and output to ndarray(uint16)
+
     + view_depth: view depth image by matplotlib (support auto-draw color makes it easy to view)
     """    
     def __init__(self, depth_shape=(480, 640), file_name=""):
         """OPENNI Camera rtl test and device definition
-
         Args:
             depth_shape (tuple, optional): frame shape supported by camera default. Defaults to (480, 640).
             file_name (str, optional): use file_name="xxxxx" to enable recorded file. Defaults to "".
@@ -36,7 +38,6 @@ class ONICamera:
 
     def get_a_depth_image(self):
         """read a depth frame and output to ndarray(uint16)
-
         Returns:
             np.ndarray: a uint16 array from depth frame
         """        
